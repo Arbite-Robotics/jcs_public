@@ -1,5 +1,13 @@
 # JCS changelog
 
+## 0.3.3 - 19/07/25
+- dev_motor_controller: Fix for current sense noise
+- dev_motor_controller: Add current controller feedforward terms
+- dev_host: Network firmware loader can now optionally update listed devices instead of all devices
+- dev_host: Add function to validate firmware list before attempting to write
+
+---
+
 ## 0.3.2 - 24/06/2025
 - jcs_host: Bugfix for first two datapoints being zero
 
